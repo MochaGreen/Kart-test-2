@@ -340,6 +340,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 141963374}
+  - {fileID: 530980910}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -353,7 +354,6 @@ GameObject:
   m_Component:
   - component: {fileID: 141963374}
   - component: {fileID: 141963375}
-  - component: {fileID: 141963376}
   m_Layer: 2
   m_Name: Kart
   m_TagString: Untagged
@@ -409,19 +409,6 @@ MonoBehaviour:
   w2: {fileID: 3003672533478810223}
   w3: {fileID: 3003672533478810211}
   w4: {fileID: 3003672533478810209}
---- !u!135 &141963376
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141963373}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &178003645
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,7 +468,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178003645}
-  m_LocalRotation: {x: -0.022360675, y: -0.0000000010751299, z: -2.4046643e-11, w: 0.99974996}
+  m_LocalRotation: {x: -0.022360679, y: -0.0000000010751299, z: -2.4046648e-11, w: 0.99974996}
   m_LocalPosition: {x: 0, y: 0.62, z: -2.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -608,7 +595,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 352735431}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3003672533478810215}
@@ -739,8 +726,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 115501479}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &530980911
 Rigidbody:
@@ -769,7 +756,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.44
+  m_Radius: 0.43
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &532932733
 GameObject:
@@ -1511,7 +1498,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.022360675, y: -0.0000000010751299, z: -2.4046643e-11, w: 0.99974996}
+  m_LocalRotation: {x: -0.022360679, y: -0.0000000010751299, z: -2.4046648e-11, w: 0.99974996}
   m_LocalPosition: {x: 0, y: 0.62, z: -2.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
